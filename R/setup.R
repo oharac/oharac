@@ -1,10 +1,10 @@
 
 #' Set up common packages and directories
 #'
-#' Attach `tidyverse`, `here`, `RColorBrewer` packages; create aliases to locations
+#' Attach \code{tidyverse}, \code{here}, \code{RColorBrewer} packages; create aliases to locations
 #' on Mazu (optional)
 #'
-#' @param dirs Should paths to Mazu be loaded? default `TRUE`
+#' @param dirs Should paths to Mazu be loaded? default \code{TRUE}
 #'
 #' @return nothing to return
 #' @export

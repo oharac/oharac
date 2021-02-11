@@ -7,12 +7,12 @@
 setup(dirs = TRUE)
 }
 \arguments{
-\item{dirs}{Should paths to Mazu be loaded? default `TRUE`}
+\item{dirs}{Should paths to Mazu be loaded? default \code{TRUE}}
 }
 \value{
 nothing to return
 }
 \description{
-Attach `tidyverse`, `here`, `RColorBrewer` packages; create aliases to locations
+Attach \code{tidyverse}, \code{here}, \code{RColorBrewer} packages; create aliases to locations
 on Mazu (optional)
 }

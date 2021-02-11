@@ -11,14 +11,13 @@ dt_join(df1, df2, by, type)
 
 \item{df2}{a large dataframe}
 
-\item{by}{a column to be used as a join key.  Column name must be same in both `df1` and `df2`.}
-
 \item{type}{What type of join? options 'left', 'full', 'inner'.}
 }
 \value{
 A joined dataframe
 }
 \description{
-A join function for very large dataframes with similar syntax to `dplyr::left_join`,
-but using faster `data.table::merge()`.
+A join function for very large dataframes with similar syntax to
+\code{dplyr::left_join},
+but using faster \code{data.table::merge()}.
 }

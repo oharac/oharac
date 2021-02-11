@@ -10,7 +10,7 @@ theme_ohara(base_size = 9)
 \item{base_size}{}
 }
 \value{
-`ggplot` `theme` object
+A \code{ggplot} \code{theme} object
 }
 \description{
 A theme for `ggplot`

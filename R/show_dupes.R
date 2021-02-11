@@ -3,11 +3,11 @@
 #' Identifies and returns duplicated values within a given column of a dataframe.
 #'
 #' @param x A dataframe
-#' @param y A character column name within dataframe x
+#' @param y A character column name within dataframe \code{x}
 #' @param na.rm
 #'
-#' @return A dataframe that includes all rows of `x` with duplicated values
-#' in the given column `y`.
+#' @return A dataframe that includes all rows of \code{x} with duplicated values
+#' in the given column \code{y}.
 #' @export
 #'
 #' @examples

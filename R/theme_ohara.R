@@ -2,7 +2,7 @@
 #'
 #' @param base_size
 #'
-#' @return `ggplot` `theme` object
+#' @return A \code{ggplot} \code{theme} object
 #' @export
 #'
 #' @examples

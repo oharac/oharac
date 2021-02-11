@@ -1,11 +1,13 @@
 #' Join dataframes using datatable functionality
 #'
-#' A join function for very large dataframes with similar syntax to `dplyr::left_join`,
-#' but using faster `data.table::merge()`.
+#' A join function for very large dataframes with similar syntax to
+#' \code{dplyr::left_join},
+#' but using faster \code{data.table::merge()}.
 #'
 #' @param df1 a large dataframe
 #' @param df2 a large dataframe
-#' @param by a column to be used as a join key.  Column name must be same in both `df1` and `df2`.
+#' @param by a column to be used as a join key.  Column name must be same
+#' in both \code{df1] and \code{df2].
 #' @param type What type of join? options 'left', 'full', 'inner'.
 #'
 #' @return A joined dataframe

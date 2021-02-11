@@ -9,13 +9,13 @@ show_dupes(x, y, na.rm = FALSE)
 \arguments{
 \item{x}{A dataframe}
 
-\item{y}{A character column name within dataframe x}
+\item{y}{A character column name within dataframe \code{x}}
 
 \item{na.rm}{}
 }
 \value{
-A dataframe that includes all rows of `x` with duplicated values
-in the given column `y`.
+A dataframe that includes all rows of \code{x} with duplicated values
+in the given column \code{y}.
 }
 \description{
 Identifies and returns duplicated values within a given column of a dataframe.

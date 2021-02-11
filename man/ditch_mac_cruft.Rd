@@ -10,6 +10,6 @@ ditch_mac_cruft()
 
 }
 \description{
-Drops all those annoying Mac-specific files such as .DS_Store within the
+Drops all those annoying Mac-specific files such as \code{.DS_Store} within the
 current R project directory and subdirectories.
 }
