@@ -1,7 +1,7 @@
 
 #' Set up common packages and directories
 #'
-#' Attach `tidyverse`, `RColorBrewer` packages; create aliases to locations
+#' Attach `tidyverse`, `here`, `RColorBrewer` packages; create aliases to locations
 #' on Mazu (optional)
 #'
 #' @param dirs Should paths to Mazu be loaded? default `TRUE`
@@ -13,6 +13,7 @@
 setup <- function(dirs = TRUE) {
 
   library(tidyverse)
+  library(here)
   library(RColorBrewer)
 
   if(dirs) {

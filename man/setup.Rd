@@ -13,6 +13,6 @@ setup(dirs = TRUE)
 nothing to return
 }
 \description{
-Attach `tidyverse`, `RColorBrewer` packages; create aliases to locations
+Attach `tidyverse`, `here`, `RColorBrewer` packages; create aliases to locations
 on Mazu (optional)
 }
