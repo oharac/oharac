@@ -25,8 +25,8 @@ dt_join <- function(df1, df2, by, type, allow.cartesian = FALSE) {
   ### behaves like full join; if all = FTF, behaves like left_join?
   dt1 <- data.table::data.table(df1, key = by)
   dt2 <- data.table::data.table(df2, key = by)
-  dt_full <- data.table::merge(dt1, dt2,
-                               all = a[1], all.x = a[2], all.y = a[3],
-                               allow.cartesian = allow.cartesian)
+  dt_full <- merge(dt1, dt2,
+                   all = a[1], all.x = a[2], all.y = a[3],
+                   allow.cartesian = allow.cartesian)
   return(as.data.frame(dt_full))
 }
